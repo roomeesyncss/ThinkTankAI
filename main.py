@@ -4,9 +4,8 @@ from groq import Groq
 from dotenv import load_dotenv
 import json
 
-load_dotenv()
 
-client = Groq(api_key=st.secrets("GROQ_API_KEY"))
+client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 
 st.set_page_config(page_title="🔥 ThinkTankAI", page_icon="🔥", layout="wide")
 
